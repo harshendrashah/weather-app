@@ -1,5 +1,5 @@
 {
-  "name": "web-server",
+  "name": "weather-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
-    "hbs": "^4.0.1"
+    "express": "^4.17.1",
+    "hbs": "^4.0.4",
+    "request": "^2.88.0"
   }
 }
