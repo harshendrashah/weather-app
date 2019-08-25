@@ -1,8 +1,7 @@
 const request = require('request')
-const keys = require('./private_keys.json')  // Create a json file for your private_keys
 
 const forecast = (latitude, longitude, callback) => {
-    const url = 'https://api.darksky.net/forecast/' + keys.darkskyApiKey + '/' + latitude + ',' + longitude + '?units=si'
+    const url = 'https://api.darksky.net/forecast/340377319c821df51abfcc91a72cecb8/' + latitude + ',' + longitude + '?units=si'
 
     request({ url, json: true }, (error, { body }) => {
         if (error) {
